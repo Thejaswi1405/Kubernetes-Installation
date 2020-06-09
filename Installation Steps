@@ -21,7 +21,7 @@ On Master node only :
 --------------------
 9) sudo kubeadm init
 10) mkdir -p $HOME/.kube
-11) sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+11) sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config [.kube - means hidden folder]
 12) sudo chown $(id -u):$(id -g) $HOME/.kube/config
 13) kubectl get nodes
 14) kubectl get pods --all-namespaces
